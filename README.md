@@ -1,91 +1,16 @@
-# react-budget-app
-A responsive Budget Tracker application built with React.js that helps users manage their finances by setting a budget, adding expenses, and tracking total spending and remaining balance. The app features a clean, modern UI with real-time budget calculations for an intuitive user experience.
-# 💰 Budget Tracker
+# React + Vite
 
-A simple and responsive Budget Tracker application built with **React.js** that helps users manage their finances by setting a budget, adding expenses, and tracking their remaining balance in real time.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
+Currently, two official plugins are available:
 
-- 💵 Set a total budget
-- ➕ Add expenses with name and amount
-- 📊 Automatically calculate total expenses
-- 💰 Display remaining budget
-- ⚡ Real-time updates using React state
-- 🎨 Clean and responsive user interface
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Built With
+## React Compiler
 
-- React.js
-- JavaScript (ES6+)
-- CSS3
-- Vite
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📸 Screenshot
+## Expanding the ESLint configuration
 
-_Add a screenshot of your application here._
-
-## 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/react-budget-app.git
-```
-
-Navigate to the project folder:
-
-```bash
-cd react-budget-app
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open the application in your browser:
-
-```
-http://localhost:5173
-```
-
-## 📂 Project Structure
-
-```
-react-budget-app/
-│── public/
-│── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── assets/
-│── package.json
-│── vite.config.js
-└── README.md
-```
-
-## 🎯 Future Improvements
-
-- ✏️ Edit expenses
-- 🗑️ Delete expenses
-- 📅 Filter expenses by date
-- 📊 Charts and analytics
-- 💾 Save data using Local Storage
-- 🌙 Dark mode
-
-## 👩‍💻 Author
-
-**Maria John**
-
-GitHub: https://github.com/Maria0624
-
----
-
-⭐ If you found this project useful, consider giving it a star!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
